@@ -14,6 +14,8 @@ The demo is composed of two small programs, each with its own role:
   - Validates the received file handle.
   - Uses SetFileInformationByHandle with FileRenameInfo to rename the file through the inherited handle.
 
+<img width="614" height="381" alt="image" src="https://github.com/user-attachments/assets/c46673b3-2387-4005-b0dc-5ae35f3054ba" />
+
 ## Key Takeaways
 - How to configure inheritable handles in Windows (bInheritHandle, bInheritHandles).
 - How to pass handles between processes.
